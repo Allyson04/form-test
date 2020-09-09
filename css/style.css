@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+body div {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    border: 1px solid black;
+
+}
+
+body form {
+    border: 1px solid black;
+    
+    margin: 50% 30%;
+}
