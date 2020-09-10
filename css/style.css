@@ -29,12 +29,12 @@ body form {
 /* Dark Form  */
 
 div.dark-form {
-    background: var(--dark-div-background);
+    background: #596275;
 }
 
 div.dark-form form {
     padding: 20px;
-    background: var(--dark-form-background);
+    background: #303952;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -58,7 +58,7 @@ div.dark-form form:hover {
 
 div.dark-form label,
 div.dark-form input[type=submit] {
-    color: var(--dark-font-label);
+    color: #ecf0f1;
     letter-spacing: 2px;
 }
 
@@ -71,10 +71,10 @@ div.dark-form input {
 div.dark-form input[type=text],
 div.dark-form input[type=password] {
     padding: 10px;
-    color: var(--dark-font-label);
+    color: #ecf0f1;
     background: transparent;
 
-    border-bottom: 1px solid var(--dark-border-input);
+    border-bottom: 1px solid #759dc2;
 
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -85,7 +85,7 @@ div.dark-form input[type=password] {
 
 div.dark-form input[type=text]:focus,
 div.dark-form input[type=password]:focus {
-    background: var(--dark-input-background-focus);
+    background: #34495e;
 
     border: none;
     outline: none;
@@ -111,7 +111,7 @@ div.dark-form input[type=submit] {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 
-    background: var(--dark-submit-background);
+    background: #51708f;
 }
 
 div.dark-form input[type=submit]:hover {
