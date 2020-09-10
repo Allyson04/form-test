@@ -1,8 +1,21 @@
+:root {
+    --dark-div-background: #596275;
+    --dark-form-background: #303952;
+    --dark-font-label: #ecf0f1;
+    --dark-border-input: #759dc2;
+    --dark-input-background-focus: #34495e;
+    --dark-submit-background: #51708f;
+    --dark-a-color: #2980b9;
+    --dark-a-hover-color: #3498db;
+}
+
 * {
     margin: 0;
     padding: 0;
     color: black;
     text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -29,12 +42,12 @@ body form {
 /* Dark Form  */
 
 div.dark-form {
-    background: #596275;
+    background: var(--dark-div-background);
 }
 
 div.dark-form form {
     padding: 20px;
-    background: #303952;
+    background: var(--dark-form-background);
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -58,7 +71,7 @@ div.dark-form form:hover {
 
 div.dark-form label,
 div.dark-form input[type=submit] {
-    color: #ecf0f1;
+    color: var(--dark-font-label);
     letter-spacing: 2px;
 }
 
@@ -71,10 +84,10 @@ div.dark-form input {
 div.dark-form input[type=text],
 div.dark-form input[type=password] {
     padding: 10px;
-    color: #ecf0f1;
+    color: var(--dark-font-label);
     background: transparent;
 
-    border-bottom: 1px solid #759dc2;
+    border-bottom: 1px solid var(--dark-border-input);
 
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -85,20 +98,20 @@ div.dark-form input[type=password] {
 
 div.dark-form input[type=text]:focus,
 div.dark-form input[type=password]:focus {
-    background: #34495e;
+    background: var(--dark-input-background-focus);
 
     border: none;
     outline: none;
 }
 
 div.dark-form a {
-    color: #2980b9;
+    color: var(--dark-a-color);
     font-size: 0.8em;
     margin: 20px 10px 50px 70px;
 }
 
 div.dark-form a:hover {
-    color: #3498db;
+    color: var(--dark-a-hover-color);
 }
 
 div.dark-form input[type=submit] {
@@ -111,25 +124,12 @@ div.dark-form input[type=submit] {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 
-    background: #51708f;
+    background: var(--dark-submit-background);
 }
 
 div.dark-form input[type=submit]:hover {
     background: #487db3;
 }
-
-/* div.dark-form input[type=submit]:hover {
-    padding: 20px 20px;
-    transition: padding 0.3s ease-out;
-    -webkit-transition: padding 0.3s ease-out;
-    -moz-transition: padding 0.3s ease-out;
-    -ms-transition: padding 0.3s ease-out;
-    -o-transition: padding 0.3s ease-out;
-} */
-
-
-
-
 
 /* 
 
